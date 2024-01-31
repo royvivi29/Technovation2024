@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Rumble</title>
+
+    <style>
+        nav {
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: #444;
+    padding: 10px;
+    position: relative;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  #menuToggle {
+    /* background-color: #444; */
+    color: #333;
+    /* border: none; */
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    
+  }
+  
+  #menuItems {
+    display: none;
+    color: #333;
+  }
+  
+  #menuItems.active {
+    display: flex;
+    flex-direction: column;
+  }
+  h2.rule{
+    font-size: 2.5em;
+    margin: 20px 0;
+    align-items: center;
+  }
+  
+  h3.Teacher{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin: 20px 0;
+    align-items: center;
+  }
+  
+  
+  h3.Student{
+    font-size: 1.8em;
+    margin: 20px 0;
+    align-items: center;
+  }
+  
+  button.Register {
+  background-color: #007bff; 
+  color: #fff; 
+  font-size: 1em; 
+  padding: 20px 50px; 
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  }
+  button.Register:hover{
+    background-color: #0056b3;;
+  }
+  
+  
+  .name-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-between ;
+  }
+  /* .name span{
+    margin-left: auto;
+  } */
+  .contact-number {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .Event {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 400px; 
+  }
+  .Event p {
+        margin-bottom: 10px;
+    }
+  
+    .Event span {
+        font-weight: bold;
+    }
+  @media screen and (max-width:600px){
+    h3.Student{
+        font-size: 1.5em;
+    }
+    nav {
+        flex-direction: column;
+    }
+  
+    nav a {
+        margin-bottom: 5px;
+    }  
+    .name, .contact-number {
+      font-size: 16px;
+    }
+    h3.Teacher {
+    font-size: 1.5em; 
+  }
+  h2.rule {
+    font-size: 2.3em; 
+  }
+  .Event {
+    max-width: 100%;
+    }
+  }
+    </style>
+</head>
+<body>
+    <p> <a href="competition.html">Robo Race</a></p>
+
+
+    <nav>
+        <button id="menuToggle">&#9776; Menu</button>
+        <div id="menuItems">
+            <a href="home.html">HOME</a>
+            <a href="competition.html">COMPETITION</a>
+            <a href="result.html">RESULT</a>
+            <!-- <a href="#Contact">CONTACT US</a> -->
+        </div>
+    </nav>
+
+
+    <h2 class="rule">Rule  & Regulation</h2>
+
+
+
+
+
+
+    <h3 class="Teacher">Teacher coordinator</h3>
+
+    <div class="name-container">
+        <div class="name">
+            <span></span> 
+            <span></span>
+        </div>
+        <div class="name">
+         <span></span> 
+         <span></span>
+        </div>
+    </div>
+
+    <h3 class="Student">student coordinator</h3>
+    <hr>
+
+    <button class="Register"><a href="https://forms.gle/MTh5ELUU44MM4abe6">Register</a></button>
+
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function() {
+        console.log('Menu toggle clicked');
+        document.getElementById('menuItems').classList.toggle('active');
+    });
+    </script>
+</body>
+</html>
