@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url(Image/homeimage.jpg);
+    background-image: url(Image/f2017979ae4f1fd165218d3709225e76.jpg);
 }
 
 header {
@@ -102,15 +102,7 @@ h2{
         width: 100%;
     }
 } 
-/* footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-} */
+
 #menuToggle {
     color: #333;
     border: none;
