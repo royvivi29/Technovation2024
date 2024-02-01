@@ -73,6 +73,10 @@ h1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
 }
+h3 a{
+    text-decoration: none;
+    color: black;
+}
 .participant-image{
     max-width: 110%;
     height: auto;
