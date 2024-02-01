@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    background-image: url(Image/homeimage.jpg);
 }
 
 header {
     
-    color: #333;
+    color: red;
     padding: 15px;
     text-align: center;
 }
@@ -27,10 +28,24 @@ nav a {
     margin-bottom: 5px;
 }
 
- /* section {
-    padding: 20px;
-} */
+.logo{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
 
+}
+.logo img {
+    max-width: 50%;
+    height: 175px;
+}
+h2{
+    color: orangered;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card {
     width: calc(33.33% - 20px);
     background-color: #fff;
@@ -105,6 +120,10 @@ nav a {
     margin-top: 20px;
 }
 
+.more-events p{
+    color: white;
+    font-size: large;
+}
 .more-events a {
     display: inline-block;
     background-color: #007bff;
