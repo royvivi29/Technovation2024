@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Result</title>
   <style>
+    body{
+      background-image: url(Image/f2017979ae4f1fd165218d3709225e76.jpg);
+    }
     nav {
-background-color: #444;
+/* background-color: #444; */
 padding: 10px;
 position: relative;
 }
 
 nav a {
-color: #fff;
+color: white;
 text-decoration: none;
 display: block;
 padding: 10px 20px;
@@ -37,7 +40,12 @@ display: flex;
 flex-direction: column;
 }
 
-
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+}
 @media screen and (max-width: 600px) {
 nav {
     flex-direction: column;
@@ -93,6 +101,7 @@ h3.Student{
     </div>
 </nav>
 
+<h1>RESULT</h1>
 
 <script>
 document.getElementById('menuToggle').addEventListener('click', function() {
