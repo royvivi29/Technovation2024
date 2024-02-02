@@ -100,6 +100,10 @@ h3 a{
 .card h3 a:active{
     color: orangered;
 }
+.card h3 a:visited{
+    color: purple;
+}
+
 
   @media screen and (max-width: 1000px) {
     .card {
