@@ -73,7 +73,15 @@ h3 a{
     min-width: 90%;
     min-height: 50%;
 }
-
+.card h3 a:hover{
+    color:red;
+}
+.card h3 a:active{
+    color: orangered;
+}
+.card h3 a:visited{
+    color: purple;
+}
 h1{
     display: flex;
     justify-content: center;
