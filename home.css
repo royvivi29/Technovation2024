@@ -70,6 +70,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .card {
     width: calc(33.33% - 20px);
@@ -86,7 +87,7 @@ h3 a{
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 } 
 .participant-image{
     max-width: 110%;
