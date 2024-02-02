@@ -8,8 +8,6 @@ body {
 }
 /* navbar section */
 nav {
-    /* display: flex;
-    justify-content: space-around; */
     background-color: #444;
     padding: 10px;
     position: relative;
@@ -24,10 +22,7 @@ nav a {
     margin-bottom: 5px;
 }
 #menuToggle {
-    /* display: block; */
-    /* background-color: #444; */
     color: #fff;
-    /* border: none; */
     padding: 10px;
     margin: 10px;
     cursor: pointer;
