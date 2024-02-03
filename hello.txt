@@ -259,14 +259,12 @@ button.Register:hover{
 
     <div class="name-container">
       <div class="name">
-        <span>
-        </span> 
-        <span>+91
-        </span>
-      </div>
+        <span></span> 
+        <span>+91</span>
+      </div>  
       <div class="name">
-        <span>
-        </span>
-        <span>
-        </span>
+        <span></span>
+        <span></span>
       </div>
+    </div>
+      
