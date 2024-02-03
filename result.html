@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Result</title>
   <style>
-    body{
-      background-image: url(Image/f2017979ae4f1fd165218d3709225e76.jpg);
-    }
-    nav {
-/* background-color: #444; */
+body{
+background-image: url(Image/f2017979ae4f1fd165218d3709225e76.jpg);
+}
+nav {
 padding: 10px;
 position: relative;
 }
@@ -27,67 +26,56 @@ color: #333;
 padding: 10px;
 margin: 10px;
 cursor: pointer;
-
 }
-
 #menuItems {
 display: none;
 color: #333;
 }
-
 #menuItems.active {
 display: flex;
 flex-direction: column;
 }
-
 h1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: orangered;
+display: flex;
+justify-content: center;
+align-items: center;
+color: orangered;
 }
 @media screen and (max-width: 600px) {
 nav {
-    flex-direction: column;
+flex-direction: column;
 }
 
 nav a {
-    margin-bottom: 5px;
+margin-bottom: 5px;
 }  
 }
 h2.rule{
-    font-size: 2.5em;
-    margin: 20px 0;
-    align-items: center;
+font-size: 2.5em;
+margin: 20px 0;
+align-items: center;
 }
-@media only screen and (max-width: 600px) {
-  h2.rule {
-    font-size: 2.3em; 
-  }
-}
-
 h3.Teacher{
-    font-size: 2.3em;
-    margin: 20px 0;
-    align-items: center;
+font-size: 2.3em;
+margin: 20px 0;
+align-items: center;
 }
 @media only screen and (max-width: 600px) {
-  h3.Teacher {
-    font-size: 2.0em; 
-  }
+h3.Teacher {
+font-size: 2.0em; 
 }
-
 h3.Student{
-    font-size: 1.8em;
-    margin: 20px 0;
-    align-items: center;
+font-size: 1.5em;
 }
-@media screen and (max-width:600px){
-    h3.Student{
-        font-size: 1.5em;
-    }
+h2.rule {
+font-size: 2.3em; 
 }
-
+}
+h3.Student{
+font-size: 1.8em;
+margin: 20px 0;
+align-items: center;
+}
 </style>
 </head>
 <body>
@@ -101,7 +89,6 @@ h3.Student{
 </nav>
 
 <h1>RESULT</h1>
-
 <script>
 document.getElementById('menuToggle').addEventListener('click', function() {
 console.log('Menu toggle clicked');
