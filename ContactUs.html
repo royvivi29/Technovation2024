@@ -7,10 +7,10 @@
     <title>Contact Us</title>
     <style>
        body{
-        background-image: url(Image/65e3370906a73a0b23663ef7e2780078.jpg);
+        background-image: url(Image/f2017979ae4f1fd165218d3709225e76.jpg);
       }
         nav {
-    background-color: #444;
+    /* background-color: #444; */
     padding: 10px;
     position: relative;
   }
@@ -24,7 +24,7 @@
     margin-bottom: 5px;
   }
   #menuToggle {
-    color: #333;
+    color: black;
     padding: 10px;
     margin: 10px;
     cursor: pointer;
@@ -33,7 +33,7 @@
   
   #menuItems {
     display: none;
-    color: #333;
+    color: black;
   }
   
   #menuItems.active {
@@ -52,15 +52,23 @@
     font-size: 1.8em;
     margin: 20px 0;
     align-items: center;
+    color: white;
   }
-  
-  
+  h2.contact{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin: 20px 0;
+    align-items: center;
+    color: white;
+  }
   h3.Student{
     display: flex;
     justify-content: center;
     font-size: 1.8em;
     margin: 20px 0;
     align-items: center;
+    color: white;
   }
   .Mail{
     display: flex;
@@ -68,6 +76,7 @@
     font-size: 1.8em;
     margin: 20px 0;
     align-items: center;
+    color: white;
   }
   button.Register {
   background-color: #007bff; 
@@ -118,6 +127,14 @@
     .Event span {
         font-weight: bold;
     }
+    .Mail-us{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: white;
+    }
   @media screen and (max-width:600px){
     h3.Student{
         font-size: 1.5em;
@@ -141,14 +158,16 @@
   .Event {
     max-width: 100%;
     }
-    .Mail{
-        font-size:2.3em;
+    .Mail-us{
+    font-size:14px;
     }
-  }
+    h2.contact{
+      font-size: 1.5em;
+    }
+  } 
     </style>
 </head>
 <body>
-  <p><a href="home.html"></a></p>
     <p><a href="competition.html"></a></p>
 
     <nav>
@@ -157,20 +176,20 @@
             <a href="home.html">HOME</a>
             <a href="competition.html">COMPETITION</a>
             <a href="result.html">RESULT</a>
-            <a href="ContactUs.html">Contact Us</a>
+            <a href="ContactUs.html">CONTACT US</a>
         </div>
     </nav>
 
 
 
+<h2 class="contact">CONTACT US</h2>
 
-
-
+<hr>
 
     <h3 class="Technovation">COORDINATOR</h3>
 
     <div class="Event">
-        <p><span>Himanshu Bhusan Mohapatra</span> </p>
+        <p><span>Prof. Himanshu Bhusan Mohapatra</span> </p>
         <p> <span>Dept. Of ECE</span> </p>
         <p><span>+917978552954</span> </p>
     </div>
@@ -180,7 +199,7 @@
 
     <h3 class="Technovation">CO-COORDINATOR</h3>
     <div class="Event">
-        <p><span>Irani Majumdar</span> </p>
+        <p><span>Prof. Irani Majumdar</span> </p>
         <p> <span>Dept. Of AIML</span> </p>
         <p><span>+917008848775</span> </p>
     </div>
@@ -196,7 +215,7 @@
     </div>
  <hr>
    <h3 class="Mail">Mail Us</h3>
-    <p class="Mail">technovation.gec@gmail.com</p>
+    <p class="Mail-us">technovation.gec@gmail.com</p>
     <hr>
     <script>
         document.getElementById('menuToggle').addEventListener('click', function() {
