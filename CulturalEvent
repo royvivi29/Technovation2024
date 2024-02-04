@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Court</title>
+    <title>Cultural Event</title>
     <style>
        body{
         background-image: url(Image/65e3370906a73a0b23663ef7e2780078.jpg);
@@ -139,6 +139,7 @@
     </style>
 </head>
 <body>
+  <p><a href="home.html"></a></p>
     <p><a href="competition.html"></a></p>
 
     <nav>
@@ -152,8 +153,7 @@
 
 
 
-    <h2 class="rule">About The Event</h2>
-    <p>This is not a competition. If you are interested to take part in FOOD Court during Technovation 2k24,register in the below link</p>
+    <!-- <h2 class="rule">Rule  & Regulation</h2> -->
 
 
 
@@ -164,35 +164,35 @@
 
     <div class="name-container">
         <div class="name">
-            <span>Dr Rashmi Ranjan Panigrahi
+            <span>Prof Kaustav Das
             </span> 
-            <span>+917978232309
+            <span>+919348565221
             </span>
         </div>
         <div class="name">
-          <span>Prof Suba Rao
-          </span> 
-          <span>+917978231858
-          </span>
-      </div>
+            <span>Ms. Priyadarshini Pradhan
+            </span> 
+            <span>+917008026275
+            </span>
+        </div>
     </div>
 
     <hr>
 
-    <!-- <h3 class="Student">student coordinator</h3>
+    <h3 class="Student">student coordinator</h3>
     <div class="name-container">
       <div class="name">
-        <span></span> 
-        <span>+91</span>
+        <span>Gyaneswar Pradhan</span> 
+        <span>+917846850148</span>
       </div>  
       <div class="name">
-        <span></span>
-        <span></span>
+        <span>Sneha Pradhan</span>
+        <span>+917439783309</span>
       </div>
-    </div> -->
+    </div>
     <hr>
     <!-- <div class="Event">
-        <p>Event Category:- <span>Fun Event
+        <p>Event Category:- <span>Cultural Event
         </span> </p>
         <p>Event Type:- <span>individual
         </span> </p>
@@ -201,9 +201,9 @@
         </span> </p>
         <p>Date:- <span>
             09-02-2024
-        </span> </p>
-    </div> -->
-    <button class="Register"><a href="https://forms.gle/fobDdbBpFWds8Ytb6">Register</a></button>
+        </span> </p> -->
+    </div>
+    <button class="Register"><a href="https://forms.gle/LgBNT4Uz1Qq1YYu69">Register</a></button>
 
 
 

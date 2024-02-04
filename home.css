@@ -101,23 +101,16 @@ h3 a{
 .card h3 a:active{
     color: orangered;
 }
-.card h3 a:visited{
-    color: purple;
-}
-
-
   @media screen and (max-width: 1000px) {
     .card {
         width: calc(50% - 20px);
     }
 } 
-
 @media screen and (max-width: 600px) {
     .card {
         width: 100%;
     }
 } 
-
 #menuToggle {
     color: black;
     border: none;
@@ -126,23 +119,18 @@ h3 a{
     cursor: pointer;
     
 }
-
 #menuItems {
     display: none;
     color:black;
 }
-
 #menuItems.active {
     display: flex;
     flex-direction: column;
 }
-
-
 @media screen and (max-width: 600px) {
     nav {
         flex-direction: column;
     }
-
     nav a {
         margin-bottom: 5px;
     }  
@@ -151,7 +139,6 @@ h3 a{
     text-align: center;
     margin-top: 20px;
 }
-
 .more-events p{
     color: white;
     font-size: large;
@@ -165,11 +152,9 @@ h3 a{
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
-
 .more-events a:hover {
     background-color: #0056b3;
 }
-
 @media screen and (max-width: 600px) {
     .more-events {
         margin-top: 10px;
