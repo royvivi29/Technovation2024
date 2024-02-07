@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     background-image: url(Image/d02ecdb9d7c07b97b4d64cd4174dc6f4.jpg);
+    background-size: cover;
 }
 /* navbar section */
 nav {
