@@ -238,3 +238,9 @@ body{
         background-color: rgb(221, 168, 104);
         opacity: 80%;
     }
+    .allcode:hover {
+        scale: 1.05;
+        transition-duration: 0.8s;
+        transition-delay: .05s;
+        opacity: 100%;
+    }
