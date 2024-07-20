@@ -7,12 +7,7 @@ body {
     /* background-size: cover; */
 }
 
-header {
-    
-    color: red;
-    padding: 15px;
-    text-align: center;
-}
+
 
 nav { 
     padding: 10px;
@@ -28,7 +23,45 @@ nav a {
     border-radius: 5px;
     margin-bottom: 5px;
 }
+ /* Basic styling for the menu bar */
+/* nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
 
+#menuToggle {
+    display: none; 
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menuItems {
+    display: flex;
+    flex-direction: row;
+}
+
+#menuItems a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+#menuItems a:hover {
+    background-color: #575757;
+} */
+
+header {
+    
+    color: red;
+    padding: 15px;
+    text-align: center;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -136,6 +169,28 @@ h3 a{
         margin-bottom: 5px;
     }  
 }
+ 
+/* @media (max-width: 768px) {
+    #menuToggle {
+        display: block;
+    }
+    
+    #menuItems {
+        display: none; 
+        flex-direction: column;
+    }
+    
+    #menuItems.show {
+        display: flex; 
+    }
+    
+    #menuItems a {
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid #555;
+    }
+} */
+
 .more-events {
     text-align: center;
     margin-top: 20px;
