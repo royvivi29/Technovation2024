@@ -18,6 +18,10 @@
             <a href="ScheduleEvent.html">SCHEDULE</a>
         </div>
     </nav>
+
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search for competitions...">
+    </div>
             
     <h1>COMPETITION</h1>
     <div class="container">
@@ -248,6 +252,18 @@
         console.log('Menu toggle clicked');
         document.getElementById('menuItems').classList.toggle('active');
     });
+
+    document.getElementById('searchBar').addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            document.querySelectorAll('.card').forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (text.includes(query)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
 </script>
 
 </body>
