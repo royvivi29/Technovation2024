@@ -1,20 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Canvas</title>
+    <title>Blind Coding Challenge
+    </title>
+    <link rel="stylesheet" href="competition.css">
     <style>
-  body{
-    background-size: cover;
-    background-image: url(Image/65e3370906a73a0b23663ef7e2780078.jpg);
-  }
-  nav {
+       body{
+        background-size: cover;
+        background-image: url(Image/65e3370906a73a0b23663ef7e2780078.jpg);
+      }
+        nav {
     background-color: #444;
     padding: 10px;
     position: relative;
   }
+  
   nav a {
     color: #fff;
     text-decoration: none;
@@ -28,11 +30,14 @@
     padding: 10px;
     margin: 10px;
     cursor: pointer;
-  } 
+    
+  }
+  
   #menuItems {
     display: none;
     color: #333;
   }
+  
   #menuItems.active {
     display: flex;
     flex-direction: column;
@@ -42,6 +47,7 @@
     margin: 20px 0;
     align-items: center;
   }
+  
   h3.Teacher{
     display: flex;
     justify-content: center;
@@ -49,6 +55,8 @@
     margin: 20px 0;
     align-items: center;
   }
+  
+  
   h3.Student{
     display: flex;
     justify-content: center;
@@ -56,6 +64,7 @@
     margin: 20px 0;
     align-items: center;
   }
+  
   button.Register {
   background-color: #007bff; 
   color: #fff; 
@@ -73,11 +82,13 @@
   text-decoration: none;
   color:#fff;
 }
+  
   .name-container {
     max-width: 900px;
     margin: 0 auto;
     padding: 5px;
   }
+  
   .name {
     font-size: 24px;
     margin-bottom: 10px;
@@ -99,6 +110,7 @@
   .Event p {
         margin-bottom: 10px;
     }
+  
     .Event span {
         font-weight: bold;
     }
@@ -109,6 +121,7 @@
     nav {
         flex-direction: column;
     }
+  
     nav a {
         margin-bottom: 5px;
     }  
@@ -128,6 +141,7 @@
     </style>
 </head>
 <body>
+  <p><a href="home.html"></a></p>
     <p><a href="competition.html"></a></p>
 
     <nav>
@@ -140,36 +154,72 @@
             <a href="ScheduleEvent.html">SCHEDULE</a>
         </div>
     </nav>
-    <!-- <h2 class="rule">Rule  & Regulation</h2> -->
+
+
+    <!-- <h2 class="rule">Rule  & Regulation</h2>
+    <div>
+      <p>(1). Group of 4 members and mention your group name and member's name.There are two rounds.</p>
+      <p>(2). In first round: you have to solve some puzzles and Technical questions.
+      </p>
+      <p>(3). In second round: you have 5 clues, each one leading to the next clue. The clues are to be found in a particular order. A team cannot skip a clue. Skipping a clue leads to the disqualification of the team.
+      </p>
+    </div> -->
+
+
+
+
+
     <h3 class="Teacher">Teacher coordinator</h3>
+
     <div class="name-container">
         <div class="name">
-            <span>Mr.Sarada prasana Sahoo</span> 
-            <!-- <span>9658410763</span> -->
+            <span>Mr. Sukumar Mohanty
+            </span> 
+            <!-- <span>+917978167426
+            </span> -->
         </div>
     </div>
+
     <hr>
+
     <h3 class="Student">student coordinator</h3>
     <div class="name-container">
       <div class="name">
-        <span>Smaranika Nayak</span>
-        <!-- <span>+918984455830</span> -->
+        <!-- <span>Pooja Kumari
+        </span>  -->
+        <!-- <span>+916204760649
+        </span> -->
       </div>  
       <div class="name">
-        <span></span>
-        <span></span>
+        <!-- <span>Yash Kamal
+        </span> -->
+        <!-- <span>+918235430672
+        </span> -->
+      </div>
+      <div class="name">
+        <!-- <span>Mayank Kumar Piyush
+        </span> -->
+        <!-- <span>+917992435059
+        </span> -->
       </div>
     </div>
     <hr>
-    <div class="Event">
-        <p>Event Category:- <span>Fun Event</span> </p>
-        <p>Event Type:- <span>Individual</span> </p>
-        <p>venu:- <span>Infront 2nd floor Seminar Hall</span> </p>
-        <p>Date:- <span>09-02-2024</span> </p>
-    </div>
 
-    <button class="Register"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd5aprnGxDlcwk7q-kpHE9qzFRzF18Hy9S4-YAgBlWb8iUbaQ/viewform?usp=sf_link">Register</a></button>
+    <!-- <div class="Event">
+        <p>Event Category:- <span>Technical Event
+        </span> </p>
+        <p>Event Type:- <span>Group
+        </span> </p>
+        <p>venu:- <span>Room No-1.01
+        </span> </p>
+        <p>Date:- <span>10-02-2024
+        </span> </p>
+    </div> -->
+
+    <hr>
     
+    <button class="Register"><a href="">Register</a></button>
+
     <script>
         document.getElementById('menuToggle').addEventListener('click', function() {
         console.log('Menu toggle clicked');
